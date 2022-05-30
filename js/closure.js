@@ -1,6 +1,6 @@
 function greetPirate(pirateName) {    // Объявление родительской функции
 	var greeting = "Hello, ";
-	function checkCaptain() {    	   // Объявление замыкания	
+	function checkCaptain() {     // Объявление замыкания	
 		if (pirateName != "Jack Sparrow")
 			return greeting + pirateName;
 		else
